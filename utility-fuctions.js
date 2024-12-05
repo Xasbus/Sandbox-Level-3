@@ -1,3 +1,4 @@
 function output(message) {
-    window.outputTag.innerHTML += message;
+    const outputTag = "GreetingTag";
+    window[outputTag].innerHTML += message;
 }
