@@ -32,3 +32,40 @@ const myValue = myCar [propertyName];
 
 - Similar to array notation
 - Access an object property with a variable or a string
+
+### Default Parameter Values
+
+`function output(message, outputTag = "outputTag")`
+
+- Parameters can automatically be given a default value
+- When an undefined value is provided, the default value applies
+
+### Single-line Code Blocks
+
+```javascript
+if (isDone) output("Done!");
+else output("Not yet done!");
+```
+- Curly braces are nto required for single-line code blocks
+
+### Falsey Values
+-Values that evaluate to false when they are used in a condition
+    - undefined
+    - empty string `""`
+    - zero `0`
+    - `NaN`
+
+### Truthy Values
+- Values that evaluate to true when they are used in a condition
+    - non-empty string `"I'm a string"`
+    - non-zero numbers `123`
+    - arrays `[]`
+    - object `{}`
+
+### Parameter Types
+
+```javascript
+function output(message = "Default Message", outputTag = "outputTag", shouldAppend)
+```
+
+- By specifiying default values, VSCode automatically pops up infomation about what type each parameter should be
