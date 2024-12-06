@@ -69,3 +69,20 @@ function output(message = "Default Message", outputTag = "outputTag", shouldAppe
 ```
 
 - By specifiying default values, VSCode automatically pops up infomation about what type each parameter should be
+
+
+### for of , loops (lists)
+
+- The keyword `of` iterates through all the items in an array
+1. Use the keyword `for`
+2. Declare a changing variable with `let`
+3. Use the keyword `of`
+4. Add the array
+
+### for in, loops (object)
+
+- The keyword `in` iterates through all the propeties in an object
+1. Use the keyword `for`
+2. Declare a changing variable with `let`
+3. Use the keyword `in`
+4. Add the object
