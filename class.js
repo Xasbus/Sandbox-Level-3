@@ -1,7 +1,12 @@
 class Column {
   openingTag = "<div class='col'>";
-  openingTag = "</div>";
+  closeTag = "</div>";
   innerHTML = "";
+
+  constuctor() {
+    console.log("The content of this column will be: " + content);
+    this.innerHTML = content;
+  }
 }
 
 class Car {
@@ -56,4 +61,9 @@ function toStringExample() {
   debugger;
   const myCar = new Car();
   output(myCar.toString(), "outputTag3");
+}
+
+function constructorExample() {
+  debugger;
+  const column = new Column("This is the content");
 }
