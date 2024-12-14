@@ -86,3 +86,27 @@ function output(message = "Default Message", outputTag = "outputTag", shouldAppe
 2. Declare a changing variable with `let`
 3. Use the keyword `in`
 4. Add the object
+
+### Boolean operators
+
+- `<` Less than
+- `<=` Less than or equal to
+- `>` Greater than
+- `>=` Greater than or equal to
+- `===` Equal
+- `!==` Not equal
+- `!` Not
+  - Returns the opposite of the condition 
+- `&&` And
+  - It returns true when both conditions are true
+  - It returns false if both conditions are not true
+- `||` Or
+  - Returns true if any of the conditions are true
+  - Returns false if none of the conditions are true
+
+### Event Object Properties
+
+`event = new Event()`
+
+- To view the properties of the event
+object, set the default parameter value.
