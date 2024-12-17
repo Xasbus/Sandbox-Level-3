@@ -93,3 +93,17 @@ import { myModule } from "./modules.js";
 
 1. Use the debugger to explore the object
 2. The class is in the `[[Prototype]]`
+
+### Internal Modules
+
+`import { name } from ../modules/greetings.js`
+
+- Modules that were created in the project
+- Must be imported with relative path notation
+
+### External Modules
+
+`import toNoCase from "to-no-case"`
+
+- Modules that were installed from npm
+- Must be imported with their package name

@@ -58,7 +58,10 @@ greetingTest.js
 - The old way of importing modules
 - Not compatible with web browsers even though it's JavaScript
 - Can be replaced with default import syntax
+  - `import toNoCase from "to-no-case";`
 
 ### Node modules
+
+`npm install to-no-case`
 
 - node_modules are reusable code that can be installed with NPM.
